@@ -1,0 +1,15 @@
+.display{
+  border-radius: 5px;
+  box-shadow: inset 1px 1px 2px 1px rgba(128, 128, 128, 0.334), -1px -1px 2px 1px rgb(128, 128, 128);
+  font-size: 18px;
+  font-weight: 600;
+  width: 200px;
+  height: 40px;
+  margin: auto;
+  margin-top: 20px;
+  color: white;
+  background-color: rgb(18 53 11);
+}
+.display:hover{
+  cursor: auto;
+}

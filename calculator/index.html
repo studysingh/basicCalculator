@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="calculator">
+        <h1 id="heading"><p>Basic Calculator</p></h1>
+        <div id="display">
+            <input type="text" id="display-text" disabled>
+        </div>
+        <div id="buttons">
+            <button class="buttons operators" onclick="clearDisplay()">C</button>
+            <button class="buttons" onclick="getvalue('1')">1</button>
+            <button class="buttons" onclick="getvalue('2')">2</button>
+            <button class="buttons operators" onclick="getvalue('+')">+</button>
+            <button class="buttons" onclick="getvalue('3')">3</button>
+            <button class="buttons" onclick="getvalue('4')">4</button>
+            <button class="buttons operators" onclick="getvalue('-')">-</button>
+            <button class="buttons" onclick="getvalue('5')">5</button>
+            <button class="buttons" onclick="getvalue('6')">6</button>
+            <button class="buttons operators" onclick="getvalue('*')">*</button>
+            <button class="buttons" onclick="getvalue('7')">7</button>
+            <button class="buttons" onclick="getvalue('8')">8</button>
+            <button class="buttons operators" onclick="getvalue('/')">/</button>
+            <button class="buttons" onclick="getvalue('9')">9</button>
+            <button class="buttons" onclick="getvalue('0')">0</button>
+            <button class="buttons operators" onclick="calculate()">=</button>
+            <button class="buttons operators"><span class="material-symbols-outlined" onclick="delete_one_char()">backspace</span></button>
+            <button class="buttons" onclick="getvalue('.')">.</button>
+        </div>
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
